@@ -1,0 +1,31 @@
+# 1. Where can you find the most complete Ruby documentation?
+#
+#	https://docs.ruby-lang.org/en/
+#
+# 2. Locate the description of the while loop in the ruby documentation.
+#
+# https://docs.ruby-lang.org/en/2.6.0/doc/syntax/control_expressions_rdoc.html
+#
+# 3. Using the ruby documentation, determine what value a while loop returns.
+#
+#	The result of a while loop is nil unless break is used to supply a value.
+#
+# 4. In the previous exercise, you learned that the while loop returns nil unless break is used. Locate the documentation for break, and determine what value break sets the return value to for the while loop.
+#
+#  Break returns nil when no arguments are passed to break, or the value of the argument when an argument is provided.
+#
+# 5. Using the ruby documentation, determine how you can write large numbers in a way that makes them easier to read.
+#
+# You will find this information under the topic of literals
+#
+# 6. Using the ruby documentation, determine how you would write a Symbol that represents your name. We aren't looking for a String; we want a Symbol, which is one of ruby's datatypes.
+#
+# :Sandy
+#
+# 7. Locate and open the class documentation for the String class.
+#
+#  A String object holds and manipulates an arbitrary sequence of bytes, typically representing characters. String objects may be created using String::new or as literals.
+#
+#  8. Use the ruby documentation for the String class to determine which method can be used to right justify a String object.
+#
+#  .rjust
